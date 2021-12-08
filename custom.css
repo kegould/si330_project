@@ -1,0 +1,85 @@
+/* not sure that I want to touch the font
+.body {
+    font-family: Arial, sans-serif;
+}
+.reveal {
+    font-family: Arial, sans-serif;
+}
+.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
+    font-family: Arial, sans-serif;
+}
+*/
+
+:root {
+  --color-1: #e5f5e0 ;
+  --color-2: #00493d ;
+  --color-3: #8A2BE2 ;
+  --name : Person name, person name, person name;
+}
+
+body { 
+    background-size: 10%, 10%, 95%;
+    background-position: 5% 5%, 95% 5%, 100% 98%;
+    background-color: var(--color-3);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+}
+
+.reveal .footer {
+  color:var(--color-2);
+  font-size: 0.5em;
+}
+
+div.footer {
+ position: absolute;
+ bottom: 1em;
+ left: 1em;
+  font-size: 0.5em;
+}
+
+.reveal .progress span {
+  background: var(--color-1);
+}
+
+.reveal .slide-number {
+  color: var(--color-2); 
+}
+
+.reveal a {
+  color: var(--color-2);
+}
+
+.reveal a:hover {
+  color: var(--color-2);
+  text-shadow: none;
+  border: none; }
+
+.reveal a:hover img {
+  border-color: var(--color-1);
+}
+
+/*********************************************
+ * NAVIGATION CONTROLS
+ *********************************************/
+.reveal .controls div.navigate-left, .reveal .controls div.navigate-left.enabled {
+  border-right-color: var(--color-1); }
+
+.reveal .controls div.navigate-right, .reveal .controls div.navigate-right.enabled {
+  border-left-color: var(--color-1); }
+
+.reveal .controls div.navigate-up, .reveal .controls div.navigate-up.enabled {
+  border-bottom-color: var(--color-1); }
+
+.reveal .controls div.navigate-down, .reveal .controls div.navigate-down.enabled {
+  border-top-color: var(--color-1); }
+
+.reveal .controls div.navigate-left.enabled:hover {
+  border-right-color: var(--color-2); }
+
+.reveal .controls div.navigate-right.enabled:hover {
+  border-left-color: var(--color-2); }
+
+.reveal .controls div.navigate-up.enabled:hover {
+  border-bottom-color: var(--color-2); }
+
+.reveal .controls div.navigate-down.enabled:hover {
+  border-top-color: var(--color-2); }
